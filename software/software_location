@@ -1,0 +1,9 @@
+Java	1.8.0	#/absolute/path
+BWA	0.7.17	#/absolute/path
+Samtools	1.13	#/absolute/path
+Picard	2.25.7	#/absolute/path/to/jar/file
+Bcftools	1.13	#/absolute/path
+FastQC	0.11.9	#/absolute/path
+Qualimap	2.2.1	#/absolute/path
+Bbduk	38.88	#/absolute/path
+GATK	4.2.0.0	#/absolute/path
