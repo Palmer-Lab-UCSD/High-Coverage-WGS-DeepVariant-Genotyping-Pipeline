@@ -14,11 +14,8 @@ Map the sequencing reads to reference genome ([BWA](http://bio-bwa.sourceforge.n
 **[step3_indel_realignment.sh](step3_indel_realignment.sh)**  
 Indel realignment with GATK 3.8.1.0 ([GATK 3.8.1.0](https://github.com/broadinstitute/gatk-docs/blob/master/blog-2012-to-2019/2016-06-21-Changing_workflows_around_calling_SNPs_and_indels.md?id=7847)).  
 
-**[step4_BQSR.sh](step4_BQSR.sh)**  
-BQSR with GATK ([GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035890531-Base-Quality-Score-Recalibration-BQSR-)).  
+**[step4_variantCalling.sh](step4_variantCalling.sh)**  
+DeepVariant single sample calling ([DeepVariant](https://github.com/google/deepvariant)).  
 
-**[step5_variantCalling.sh](step5_variantCalling.sh)**  
-Variant calling with GATK ([GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels-)).  
-
-**[step6_filter_plots_per_chr.sh](step6_filter_plots_per_chr.sh)**  
-Variants filtering with GATK ([GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035531112--How-to-Filter-variants-either-with-VQSR-or-by-hard-filtering#2)).
+**[step5_jointCalling.sh](step5_jointCalling.sh)**  
+Joint calling with GLnexus ([GLnexus](https://github.com/dnanexus-rnd/GLnexus)).  
